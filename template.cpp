@@ -13,12 +13,6 @@ template<typename T_container, typename T = typename enable_if<!is_same<T_contai
 #define sz(x) ((int)x.size())
 #define all(a) (a).begin(), (a).end()
 
-typedef pair<int, int> ii;
-typedef map<int, int> mii;
-typedef queue<int> qi;
-typedef vector<int> vi;
-typedef stack<int> si;
-
 const int MOD = 1e9 + 7;
 const int INF = 1e9;
 
