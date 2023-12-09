@@ -2,4 +2,6 @@
 Templates for Competitive Programming
 
 Comprehensive list of available templates:
-- to be completed >w<
+- Data Structures
+  - Segment Tree
+  - Fenwick Tree
