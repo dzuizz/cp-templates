@@ -1,6 +1,8 @@
 # cp-templates
 Templates for Competitive Programming in C++ envisioned and built by your one and only, [Ahmad Dzuizz Annajib](https://dzuizz.com/).
 
+If you have any suggestions on any improvements, please do not hesitate to contact me at [ahmad.dzuizz.annajib@gmail.com](mailto:ahmad.dzuizz.annajib@gmail.com).
+
 ### Comprehensive list of available templates:
 - Data Structures
     - Segment Tree
@@ -21,4 +23,4 @@ Templates for Competitive Programming in C++ envisioned and built by your one an
     - Count No. of Intersections of Lines
 - Miscellaneous
     - Convex Hull // to be implemented
-    - Matrix Exponentiation // to be implemented
+    - Matrix Exponentiation
