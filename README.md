@@ -19,7 +19,7 @@ If you have any suggestions on any improvements, please do not hesitate to conta
     - Prim's                                   // to be implemented
     - Dial's                                   // to be implemented
     - Shortest Path Faster Algorithm (SPFA)    // to be implemented
-- Math
+- Algebra
     - Sieve of Eratosthenes
     - Binary Exponentiation
 - Geometry
