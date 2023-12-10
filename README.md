@@ -12,7 +12,7 @@ If you have any suggestions on any improvements, please do not hesitate to conta
     - Union Find Disjoint Set (UFDS)
     - Depth First Search (DFS)                 // to be implemented
     - Breadth First Search (BFS)               // to be implemented
-    - Dijkstra                                 // to be implemented
+    - Dijkstra
     - Floyd Warshall                           // to be implemented
     - Bellman Ford                             // to be implemented
     - Kruskal's                                // to be implemented
