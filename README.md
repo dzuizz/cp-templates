@@ -17,6 +17,8 @@ Templates for Competitive Programming in C++ envisioned and built by your one an
     - Prim's                                   // to be implemented
     - Dial's                                   // to be implemented
     - Shortest Path Faster Algorithm (SPFA)    // to be implemented
-- Misc.
-    - Convex Hull
-    - Matrix Exponentiation
+- Geometry
+    - Count No. of Intersections of Lines
+- Miscellaneous
+    - Convex Hull // to be implemented
+    - Matrix Exponentiation // to be implemented
