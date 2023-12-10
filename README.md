@@ -21,8 +21,10 @@ If you have any suggestions on any improvements, please do not hesitate to conta
     - Shortest Path Faster Algorithm (SPFA)    // to be implemented
 - Math
     - Sieve of Eratosthenes
+    - Binary Exponentiation
 - Geometry
     - Count No. of Intersections of Lines
 - Miscellaneous
+    - Super Fast Non-negative Integer Input
     - Convex Hull // to be implemented
     - Matrix Exponentiation
