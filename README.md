@@ -8,6 +8,7 @@ If you have any suggestions on any improvements, please do not hesitate to conta
     - Segment Tree
     - Fenwick Tree / Binary Indexed Tree (BIT)
     - Sparse Table                             // to be implemented
+    - Li-Chao Tree                             // to be implemented
 - Graph Theory
     - Union Find Disjoint Set (UFDS)
     - Depth First Search (DFS)                 // to be implemented
@@ -20,6 +21,13 @@ If you have any suggestions on any improvements, please do not hesitate to conta
     - Prim's                                   // to be implemented
     - Dial's                                   // to be implemented
     - Shortest Path Faster Algorithm (SPFA)    // to be implemented
+- Trees
+    - Lowest Common Ancestor (LCA)             // to be implemented
+    - Heavy Light Decomposition (HLD)          // to be implemented
+    - Centroid Decomposition                   // to be implemented
+    - Calculate Diameter of Tree
+- Dynamic Programming Speed-ups
+    - Knuth Optimization                       // to be implemented
 - Algebra
     - Sieve of Eratosthenes
     - Binary Exponentiation
