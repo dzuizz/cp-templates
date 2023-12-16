@@ -22,10 +22,11 @@ If you have any suggestions on any improvements, please do not hesitate to conta
     - Dial's                                   // to be implemented
     - Shortest Path Faster Algorithm (SPFA)    // to be implemented
 - Trees
+    - Basic tree template with parent array
+    - Calculate Diameter of Tree
     - Lowest Common Ancestor (LCA)             // to be implemented
     - Heavy Light Decomposition (HLD)          // to be implemented
     - Centroid Decomposition                   // to be implemented
-    - Calculate Diameter of Tree
 - Dynamic Programming Speed-ups
     - Knuth Optimization                       // to be implemented
 - Algebra
@@ -35,5 +36,6 @@ If you have any suggestions on any improvements, please do not hesitate to conta
     - Count No. of Intersections of Lines
 - Miscellaneous
     - Super Fast Non-negative Integer Input
-    - Convex Hull // to be implemented
+    - __int128 Input/Output
+    - Convex Hull                              // to be implemented
     - Matrix Exponentiation

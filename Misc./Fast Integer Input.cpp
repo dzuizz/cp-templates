@@ -1,20 +1,22 @@
-// Super Fast Non-negative Integer Input
+// Super Fast Integer Input
 // to be reviewed
 
 #include <bits/stdc++.h>
 using namespace std;
 
+#define int long long
+
 inline int readInt() {
     int x = 0;
-    char ch = getchar_unlocked();
-    while (ch < '0' || ch > '9') ch = getchar_unlocked();
-    while (ch >= '0' && ch <= '9'){
-        x = (x << 3) + (x << 1) + ch - '0';
-        ch = getchar_unlocked();
+    bool neg = false;
+    register char c = getchar_unlocked();
+    while (c < '0' || c > '9') {
+        if (c == '-') neg = true;
+        c = getchar_unlocked();
     }
-    return x;
-}
-
-signed main() {
-
+    while (c >= '0' && c <= '9') {
+        x = (x << 3) + (x << 1) + c - '0';
+        c = getchar_unlocked();
+    }
+    return neg ? -x : x;
 }
