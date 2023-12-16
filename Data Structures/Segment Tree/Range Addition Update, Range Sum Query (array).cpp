@@ -1,5 +1,4 @@
-// Array Implementation of Segment Tree with Lazy Propagation (Range Update, Range Sum Query)
-// https://codebreaker.xyz/problem/segmenttree2
+// Range Addition Update, Range Sum Query using Lazy Propagation (array)
 
 #include <bits/stdc++.h>
 using namespace std;

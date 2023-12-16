@@ -7,11 +7,12 @@ using namespace std;
 #define int long long
 
 int binpow(int a, int b, int m) {
-    if (b == 0) return 1;
-    if (b == 1) return a;
-    int res = binpow(a, b/2, m);
-    res = (res*res)%m;
-    if (b%2) res = (res*a)%m;
+    int res = 1;
+    while (b) {
+        if (b & 1) res = res * a % m;
+        a = a * a % m;
+        b >>= 1;
+    }
     return res;
 }
 

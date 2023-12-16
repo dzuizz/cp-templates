@@ -1,5 +1,4 @@
-// 2 BITs (Binary Indexed Tree) approach of Fenwick Tree (Range Update, Range Sum Query)
-// https://codebreaker.xyz/problem/fenwicktree
+// Range Addition Update, Range Sum Query (2 BITs approach)
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,5 +1,4 @@
-// Pointer Implementation of Segment Tree with Lazy Propagation and Lazy Nodes (Range Update, Range Sum Query)
-// https://codebreaker.xyz/problem/segmenttree2
+// Range Addition Update, Range Sum Query with Lazy Propagation and Lazy Nodes (pointer)
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -8,8 +7,10 @@ using namespace std;
 
 struct node {
     node *lf, *rg;
-    int l, r, val, lazy;
+    int l, r, mid, val, lazy;
+
     node (int _l, int _r): l(_l), r(_r) {
+        mid = (l+r)/2;
         lf = nullptr;
         rg = nullptr;
         val = 0;
@@ -19,7 +20,6 @@ struct node {
     void prop() {
         if (l == r) return;
         if (lazy != 0) {
-            int mid = (l+r)/2;
             lf->val += lazy * (mid-l+1);
             lf->lazy += lazy;
             rg->val += lazy * (r-mid);
@@ -53,19 +53,18 @@ struct node {
 
     void create() {
         if (l != r) {
-            int mid = (l+r)/2;
             lf = new node(l, mid);
             rg = new node(mid+1, r);
         }
     }
-};
+} *root;
 
 signed main() {
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
     int n, q; cin >> n >> q;
 
-    node* root = new node(1, n);
+    root = new node(1, n);
 
     while (q--) {
         int t; cin >> t;
