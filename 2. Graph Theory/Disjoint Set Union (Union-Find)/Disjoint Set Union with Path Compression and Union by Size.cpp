@@ -1,4 +1,4 @@
-// Union Find Disjoint Set (UFDS)
+// Disjoint Set Union with Path Compression and Union by Size
 // https://tlx.toki.id/problems/sg-noi-2014/B/
 
 #include <bits/stdc++.h>

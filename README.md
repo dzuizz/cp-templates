@@ -13,8 +13,7 @@ This repository contains templates for Competitive Programming in C++ envisioned
         - Range Addition Update, Range Sum Query (2 BITs approach)
     - **Disjoint Set Union (Union-Find)**
         - Disjoint Set Union with Path Compression and Union by Size
-        - Disjoint Set Union with Path Compression and Union by Rank
-        - Disjoint Set Union with Path Halving and Union by Size
+        - Disjoint Set Union with Path Compression and Union by Rank -- To Be Implemented
     - **Sparse Table** - To Be Implemented
     - **Trie (Prefix Tree)** - To Be Implemented
     - **Median Heap**
