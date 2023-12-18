@@ -14,6 +14,7 @@ This repository contains templates for Competitive Programming in C++ envisioned
     - **Disjoint Set Union (Union-Find)**
         - Disjoint Set Union with Path Compression and Union by Size
         - Disjoint Set Union with Path Compression and Union by Rank -- To Be Implemented
+        - Count no. of Connected Components in a Graph
     - **Sparse Table** - To Be Implemented
     - **Trie (Prefix Tree)** - To Be Implemented
     - **Median Heap**
@@ -23,7 +24,7 @@ This repository contains templates for Competitive Programming in C++ envisioned
     - **Persistent Data Structures** - To Be Implemented
 
 2. **Graph Theory**
-    - **Dijkstra's Algorithm** - To Be Implemented
+    - **Dijkstra's Algorithm**
     - **Bellman-Ford Algorithm** - To Be Implemented
     - **Floyd-Warshall Algorithm** - To Be Implemented
     - **Kruskal's Algorithm** - To Be Implemented
