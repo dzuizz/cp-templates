@@ -36,6 +36,7 @@ This repository contains templates for Competitive Programming in C++ envisioned
 
 3. **Trees**
     - **LCA (Lowest Common Ancestor) with Binary Lifting, a.k.a 2k Decomposition**
+    - **APSP (All Pairs Shortest Path) with Binary Lifting, a.k.a 2k Decomposition**
     - **Diameter of a Tree** - To Be Implemented
     - **Centroid Decomposition** - To Be Implemented
     - **Heavy-Light Decomposition** - To Be Implemented
