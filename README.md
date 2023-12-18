@@ -26,7 +26,7 @@ This repository contains templates for Competitive Programming in C++ envisioned
 2. **Graph Theory**
     - **Dijkstra's Algorithm**
     - **Bellman-Ford Algorithm** - To Be Implemented
-    - **Floyd-Warshall Algorithm** - To Be Implemented
+    - **Floyd-Warshall Algorithm**
     - **Kruskal's Algorithm** - To Be Implemented
     - **Tarjan's Algorithm** - To Be Implemented
     - **Topological Sorting** - To Be Implemented
