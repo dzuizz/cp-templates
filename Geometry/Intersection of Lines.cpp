@@ -72,3 +72,5 @@ signed main() {
         cout << ".\n";
     }
 }
+
+// Time Complexity: O(N^2)

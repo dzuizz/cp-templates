@@ -36,6 +36,6 @@ signed main() {
     cout << d2.first << '\n';
 }
 
-// Time Complexity: O(n)
-// Space Complexity: O(n)
-// n = number of nodes
+// Time Complexity: O(N)
+// Space Complexity: O(N)
+// N = number of nodes

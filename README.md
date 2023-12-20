@@ -25,6 +25,10 @@ This repository contains templates for Competitive Programming in C++ envisioned
 
 2. **Graph Theory**
     - **Dijkstra's Algorithm**
+    - **Breadth-First Search (BFS)**
+        - Flood Fill Algorithm
+    - **Depth-First Search (DFS)**
+        - Flood Fill Algorithm - To Be Implemented
     - **Bellman-Ford Algorithm** - To Be Implemented
     - **Floyd-Warshall Algorithm**
     - **Kruskal's Algorithm** - To Be Implemented

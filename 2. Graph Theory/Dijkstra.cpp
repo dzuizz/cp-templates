@@ -43,3 +43,6 @@ signed main() {
     }
     cout << dist[v-1] << '\n';
 }
+
+// Time Complexity: O(E log V)
+// Space Complexity: O(V + E)

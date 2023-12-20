@@ -63,6 +63,6 @@ signed main() {
     }
 }
 
-// Time complexity: O(nlogn + qlogn)
-// n = number of nodes
-// q = number of queries
+// Time complexity: O(NlogN + QlogN)
+// N = number of nodes
+// Q = number of queries
