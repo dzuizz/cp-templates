@@ -82,7 +82,7 @@ This repository contains templates for Competitive Programming in C++ envisioned
 
 7. **String Processing**
     - **KMP Algorithm** - To Be Implemented
-    - **Z-Algorithm** - To Be Implemented
+    - **Z-Algorithm**
     - **Manacher's Algorithm** - To Be Implemented
     - **Rabin-Karp Algorithm** - To Be Implemented
     - **Suffix Array and LCP** - To Be Implemented
