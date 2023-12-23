@@ -8,11 +8,11 @@ using namespace std;
 
 const int MAXN = 2e5+5;
 
-vector<int> adjlist[MAXN];
+vector<int> adj[MAXN];
 
 pair<int, int> dfs(int cur, int prev) { // (dist, node)
     pair<int, int> ret = {0, cur};
-    for (int &x: adjlist[cur]) {
+    for (int &x: adj[cur]) {
         if (x == prev) continue;
         pair<int, int> tmp = dfs(x, cur);
         tmp.first++;
@@ -26,8 +26,8 @@ signed main() {
     
     for (int i=0; i<n-1; i++) {
         int u, v; cin >> u >> v;
-        adjlist[u].push_back(v);
-        adjlist[v].push_back(u);
+        adj[u].push_back(v);
+        adj[v].push_back(u);
     }
 
     pair<int, int> d1 = dfs(1, 0);
