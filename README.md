@@ -72,7 +72,9 @@ This repository contains templates for Competitive Programming in C++ envisioned
     - **DP with Probabilities** - To Be Implemented
 
 6. **Geometry**
-    - **Convex Hull (Graham's Scan)** - To Be Implemented
+    - **Convex Hull (Graham's Scan)**
+        - Dynamic Convex Hull Trick for DP optimization
+        - Monotone Chain Algorithm - To Be Implemented
     - **Line Intersection** - To Be Implemented
     - **Closest Pair of Points** - To Be Implemented
     - **Polygon Area** - To Be Implemented
